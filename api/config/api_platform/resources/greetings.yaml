@@ -1,0 +1,2 @@
+App\Entity\Greeting:
+    shortName: 'greetings2'

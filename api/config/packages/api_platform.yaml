@@ -4,6 +4,10 @@ api_platform:
     # Mercure integration, remove if unwanted
     mercure: ~
     # Good defaults for REST APIs
+    
+    mapping:
+        paths: [ '%kernel.project_dir%/config/api_platform/resources' ]
+        
     defaults:
         stateless: true
         cache_headers:
